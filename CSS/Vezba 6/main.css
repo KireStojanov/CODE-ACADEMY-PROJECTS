@@ -1,0 +1,44 @@
+.kolona1, .kolona2, .kolona3 {
+    float: left;
+    width: 32%;
+    border: 1px solid black;
+    background-color: azure;
+}
+
+.kolona1 ul li, .kolona2 ul li, .kolona3 ul li {
+    list-style-type: none;
+}
+
+.kolona2 ul.crveno {
+    color: red;
+}
+
+.kolona2 ul.orange {
+    color: orange;
+    text-transform: uppercase;
+}
+
+.kolona3 ul.zeleno {
+    color: green;
+    font-family: cursive;
+}
+
+.kolona3 ul.rozevo {
+    color: palevioletred;
+    font-size: 30px;
+}
+
+.vertikala {
+    height: 103px;
+    float: left;
+    background-color: brown;
+    border: solid brown;
+    /* namerno e oboena klasata za da gledam sto se slucuva */
+}
+
+/* .kolona2 .horizontala, .kolona3.horizontala {
+    float: left;
+    height: 10px;
+    background-color: brown
+    border: solid brown;
+} */

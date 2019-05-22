@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+}
+
+header .color-row, .color-row2 {
+    /* float: left;
+    position: relative; */
+    display: flex;
+}
+
+header .color-row1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.c-box {
+    width: 12.5%;
+    height: 20px;
+}
+
+.pink {
+    background-color: palevioletred;
+}
+
+.orange {
+    background-color: orangered;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+.red {
+    background-color: red;
+}
+
+.logo img {
+    display: block;
+    position: absolute;
+    max-width: 96px;
+    max-height: 96px;
+    top: 35px;
+    left: 35px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url("background.png");
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container .main {
+    /* background-image: url("background.png");
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    text-align: center;
+}
+
+.gif img{
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+.order-now {
+    background-color: orangered;
+    width: 250px;
+    margin: 15px auto;
+    text-align: center;
+    transition-property: background, border-radius;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+.order-now span {
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.order-now:hover {
+    background-color: orange;
+    border-radius: 45%;
+}
+h3 {padding-top: 10px;
+}
+
+.box-30 {
+    /* float: left;
+    position: relative;
+    width: 33.3%;*/
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: space-evenly; 
+    overflow: hidden;   
+}
+
+.box-30-single {
+    /* float: left;
+    position: relative;
+    width: 100%;*/
+    display: flex;
+    /* flex: 3 0 auto;
+    align-self: center; */
+    justify-content: center;
+    overflow: hidden;
+}
+
+.box-30 img {
+    width: 256px;
+    height: 256px;
+}
+
+.box-30-single img {
+    width: 256px;
+    height: 256px;
+}
+
+footer { 
+    background-color: black;
+}
+
+.footer-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+
+.FAQ a {
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.FAQ a:hover {
+    color: yellow;
+}
+
+.FAQ {
+    align-self: flex-start;
+    /* justify-content: space-around; */
+}
+
+.logo-footer img {
+    max-width: 200px;
+    max-height: 100px;
+}
+
+.social img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.social {
+    align-self: flex-end;
+    /* justify-content: space-around; */
+}
+
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+
+    .logo {
+        background-color: black;
+    }
+
+    .logo img {
+        display: block;
+        position: relative;
+        max-width: 96px;
+        max-height: 96px;
+        top: 0;
+        left: 35%;
+        /* margin: 10 auto; */
+        /* background-color: black; */
+    }
+
+    .box-30 {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        width: 100%;
+    }
+    .logo {
+        background-color: black;
+    }
+
+    .logo img {
+        display: block;
+        position: relative;
+        max-width: 96px;
+        max-height: 96px;
+        top: 0;
+        left: 45%;
+        /* margin: 10 auto; */
+        /* background-color: black; */
+    }
+    
+    .box-30 {
+        flex-wrap: wrap;
+    }
+
+}

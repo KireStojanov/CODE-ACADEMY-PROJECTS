@@ -1,0 +1,39 @@
+header {
+    position: relative;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+    background-color: whitesmoke;
+    padding: 0 200px;
+    border: 2px solid black;
+}
+
+a * {
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.seasons-landscape ul li {
+    float: left;
+    position: relative;
+    width: 24%;
+    list-style-type: none;
+    overflow: hidden;
+    max-height: 500px;
+    padding-right: 5px;
+}
+
+.bottom {
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+    float: left;
+}
